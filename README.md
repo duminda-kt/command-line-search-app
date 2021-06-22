@@ -57,6 +57,7 @@ java -jar ./target/cli-search-app-1.0.jar
 ```
 you will see the following screen
 
+```
 Welcome to the data search application
 
 to start searching please enter
@@ -72,3 +73,4 @@ or 'quit' anytime to exit the program
 Enter your choice :
 
 Then follow the instructions
+```
