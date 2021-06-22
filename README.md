@@ -71,6 +71,6 @@ to start searching please enter
 or 'quit' anytime to exit the program
 
 Enter your choice :
+```
 
 Then follow the instructions
-```
