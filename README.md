@@ -25,7 +25,12 @@ prerequisites
 * Apache Maven 3.8.1
 * Internet access to download the dependencies
 
-Once the project cloned go to the project root directory and run `mvn clean install`
+Once the project cloned go to the project root directory and run 
+
+``` bash
+mvn clean install
+```
+
 
 This will download all the dependencies, compile the classes, create all the necessary directories/copy config files, verify the build via running the unit tests and build an execute-aware Jar file under the 
 
@@ -37,14 +42,19 @@ Code coverage reports will be generated once `mvn verify` (or a full `mvn clean 
 
 ## Running the unit tests independently
 
-To run the unit tests, call `mvn test`
+To run the unit tests, call 
+
+``` bash
+mvn test
+```
 
 ## Running the application
 
 From the '%project_root%' directory, then type 
 
-'java -jar ./target/cli-search-app-1.0.jar'
-
+``` bash
+java -jar ./target/cli-search-app-1.0.jar
+```
 you will see the following screen
 
 Welcome to the data search application
